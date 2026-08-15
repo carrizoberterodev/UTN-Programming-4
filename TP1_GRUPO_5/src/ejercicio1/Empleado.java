@@ -8,12 +8,12 @@ public class Empleado extends Persona{
 	
 	@Override
 	public String toString() {
-		return "Empleado [legajo=" + legajo + ", puesto=" + puesto + ", getDni()=" + getDni() + ", getNombre()="
-				+ getNombre() + ", getApellido()=" + getApellido() + ", getEdad()=" + getEdad()
-				+ ", getFechaNacimiento()=" + getFechaNacimiento() + ", getGenero()=" + getGenero()
-				+ ", getDireccion()=" + getDireccion() + ", getTelefono()=" + getTelefono() + ", getEmail()="
-				+ getEmail() + ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + "]";
+	    return "Empleado [legajo=" + legajo + ", puesto=" + puesto + 
+	           ", dni=" + getDni() + ", nombre=" + getNombre() + 
+	           ", apellido=" + getApellido() + ", edad=" + getEdad() + 
+	           ", fechaNacimiento=" + getFechaNacimiento() + 
+	           ", genero=" + getGenero() + ", direccion=" + getDireccion() + 
+	           ", telefono=" + getTelefono() + ", email=" + getEmail() + "]";
 	}
 	
 }
