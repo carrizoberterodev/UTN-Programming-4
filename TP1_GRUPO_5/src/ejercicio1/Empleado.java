@@ -16,11 +16,11 @@ public class Empleado extends Persona {
     }
     
     public Empleado(String dni, String nombre, String apellido,LocalDate fechaNacimiento, 
-    				String genero, String direccion, String telefono, String email,String puesto ) 
+                    String genero, String direccion, String telefono, String email,String puesto ) 
     {
-    	super(dni, nombre, apellido, fechaNacimiento, genero, direccion, telefono, email);
-    	this.legajo = proximoLegajo++;
-    	setPuesto(puesto);
+        super(dni, nombre, apellido, fechaNacimiento, genero, direccion, telefono, email);
+        this.legajo = proximoLegajo++;
+        setPuesto(puesto);
     }
     //---------------------------
  
@@ -56,14 +56,7 @@ public class Empleado extends Persona {
     
     //----------METODOS----------
     public static int devuelveProximoLegajo() {
-    	return getProximoLegajo();
+        return getProximoLegajo();
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
 }

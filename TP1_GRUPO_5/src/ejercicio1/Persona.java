@@ -12,7 +12,9 @@ public class Persona {
 	private String direccion;
 	private String telefono;
 	private String email;
-	
+
+	//atributos listos
+
 	//----------CONSTRUCTORES----------
 	
 	//constructor vacio
@@ -20,6 +22,7 @@ public class Persona {
 		setNombre("sin nombre");
 		setEdad(99);
 	} 
+
 	
 	
 	// constructor con parametros
@@ -45,6 +48,8 @@ public class Persona {
 	}
 	//---------------------------------
 	
+	
+	// faltaria realizar otro constructor
 	
 	//getters y setters
 	public String getDni() {
