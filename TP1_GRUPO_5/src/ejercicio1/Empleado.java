@@ -45,12 +45,12 @@ public class Empleado extends Persona {
     //------METODO toString------
     @Override
     public String toString() {
-        return "Empleado [legajo=" + legajo + ", puesto=" + puesto + 
-               ", dni=" + getDni() + ", nombre=" + getNombre() + 
-               ", apellido=" + getApellido() + ", edad=" + getEdad() + 
-               ", fechaNacimiento=" + getFechaNacimiento() + 
-               ", genero=" + getGenero() + ", direccion=" + getDireccion() + 
-               ", telefono=" + getTelefono() + ", email=" + getEmail() + "]";
+        return "Empleado, LEGAJO: " + legajo + ", PUESTO: " + puesto + "\n" + 
+               "DNI: " + getDni() + ", NOMBRE: " + getNombre() + 
+               ", APELLIDO: " + getApellido() + ", EDAD: " + getEdad() + 
+               ", FECHA DE NACIMIENTO: " + getFechaNacimiento() + "\n" +
+               "GENERO: " + getGenero() + ", DIRECCION: " + getDireccion() + 
+               ", TELEFONO: " + getTelefono() + ", EMAIL: " + getEmail();
     }
     //---------------------------
     
